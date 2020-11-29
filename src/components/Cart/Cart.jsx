@@ -20,7 +20,7 @@ const Cart = ({ cart, onUpdateCartQty, onRemoveFromCart, onEmptyCart }) => {
     </Typography>
   );
 
-  if (!cart.line_items) return 'Loading...';
+  if (!cart.line_items) return 'Loading';
 
   const renderCart = () => (
     <>
@@ -65,7 +65,6 @@ const Cart = ({ cart, onUpdateCartQty, onRemoveFromCart, onEmptyCart }) => {
       </div>
     </>
   );
-
   return (
     <Container>
       <div className={classes.toolbar} />
