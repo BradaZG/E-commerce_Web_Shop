@@ -1,1 +1,1 @@
-E-commerce Web Shop app | React.js, Commerce.js, Stripe, Material-UI
+E-Commerce Web Shop app | React.js, Commerce.js, Stripe, Material-UI
